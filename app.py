@@ -9,7 +9,7 @@ app.secret_key = os.environ.get("SECRET_KEY", "48a35791177f22fba22b2cd08ad4436c1
 
 # Initialize LLM
 llm = Ollama(
-    model="llama3.2", 
+    model="gemma3:12b", 
     temperature=0.5
 )
 
